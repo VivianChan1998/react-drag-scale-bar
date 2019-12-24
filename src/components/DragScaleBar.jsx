@@ -5,7 +5,7 @@ class DragScaleBar extends React.Component {
     render() {
         var BoxClass = this.props.outBorder===false? 'Box':'Box black-border'
         return(
-            <div style={{width: this.props.width||'400px', height: '100px', margin: 'auto', marginTop: '20%' }}>
+            <div style={{width: this.props.width||'400px', margin: 'auto'}}>
                 <div className={BoxClass} onClick={this.handleClick}>
                     <Draggable width={(this.props.width||400)*0.9} {...this.props} />
                 </div>
@@ -17,11 +17,13 @@ class DragScaleBar extends React.Component {
 class Draggable extends React.Component {
     constructor(props){
         super(props)
+        var initPercentage = this.props.initValue >= 100? 0.98 : this.props.initValue / 100
+        var init = this.props.width * initPercentage
         this.state = {
             activeDrag: false,
             originalX: 0,
             translateX: 0,
-            posX: this.props.initValue===undefined? 0 : this.props.initValue / 100 * this.props.width,
+            posX: init,
             max: this.props.width
         }
     }

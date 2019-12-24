@@ -1,16 +1,16 @@
 import React from 'react';
-import DragScaleBar from './DragScaleBar'
+import DragScaleBar from './components/DragScaleBar'
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <DragScaleBar 
-          //width={300}
+          //width={440}
           //handleValue={num => print(num)}
           //outBorder
           //fillBorder
           //dragBorder
-          //initValue={40}
+          //initValue={30}
       />
     </div>
   );
