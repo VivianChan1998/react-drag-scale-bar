@@ -1,0 +1,47 @@
+* {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+
+.black-border {
+    border: 2px solid rgb(80, 80, 80);
+}
+
+.Box {
+    position: relative;
+    height: 30px;
+    width: 90%;
+    margin: 5%;
+    padding: 1% 1% 1% 1%;
+    
+    display: table-cell;
+    align-content: center;
+    border-radius: 190px;
+}
+
+.DraggableWrapper{
+    height: 30px;
+}
+
+.Draggable {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(26, 26, 100, 0.562);
+    border-radius: 50%;
+
+}
+
+.FillBar{
+    position: absolute;
+    z-index: 1;
+    top: 4px;
+    background-color: rgba(139, 139, 141, 0.329);
+    display: block;
+    float: left;
+    height: 30px;
+    border-radius: 190px;
+}
