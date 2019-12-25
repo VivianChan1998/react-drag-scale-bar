@@ -11,6 +11,9 @@ function App() {
           //fillBorder
           //dragBorder
           //initValue={30}
+          dragColor="#FFB5B5" //pink
+          fillColor="#ACD6FF" //light blue
+          outBorderColor="#004B97" //dark blue
       />
     </div>
   );

@@ -5,7 +5,7 @@
 }
 
 .black-border {
-    border: 2px solid rgb(80, 80, 80);
+    border: 2px solid ;
 }
 
 .Box {
@@ -30,7 +30,6 @@
     display: inline-block;
     height: 30px;
     width: 30px;
-    background-color: rgba(26, 26, 100, 0.562);
     border-radius: 50%;
 
 }
@@ -39,7 +38,6 @@
     position: absolute;
     z-index: 1;
     top: 4px;
-    background-color: rgba(139, 139, 141, 0.329);
     display: block;
     float: left;
     height: 30px;

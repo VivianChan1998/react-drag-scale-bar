@@ -1,6 +1,6 @@
 {
   "name": "react-drag-scale-bar",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "babel": {
     "presets": [
@@ -41,5 +41,13 @@
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0-bridge.0"
-  }
+  },
+  "keywords": [
+    "react",
+    "drag",
+    "scale",
+    "bar",
+    "scale bar",
+    "level"
+  ]
 }
